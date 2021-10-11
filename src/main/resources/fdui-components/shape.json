@@ -1,0 +1,61 @@
+{
+  "parent": "FduiCommon",
+  "name": "shape",
+  "attrs": {
+    "colors": {
+      "support": [
+        "colors"
+      ],
+      "values": [
+        "#ffffff",
+        ","
+      ]
+    },
+    "corners": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "3",
+        "2,2,0,0"
+      ]
+    },
+    "shape": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "oval",
+        " line",
+        " ring",
+        " rectangle"
+      ]
+    },
+    "orientation": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "top_bottom",
+        "tr_bl",
+        "right_left",
+        " br_tl",
+        " bottom_top",
+        " bl_tr",
+        " left_right",
+        " tl_br"
+      ]
+    },
+    "colorRes": null,
+    "strokeWidth": null,
+    "strokeColor": null,
+    "disableRtl": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    }
+  }
+}

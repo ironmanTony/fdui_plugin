@@ -1,0 +1,14 @@
+{
+  "components": [
+    "fdui-components/common.json",
+    "fdui-components/shape.json",
+    "fdui-components/similar.json",
+    "fdui-components/auto_text.json",
+    "fdui-components/image.json",
+    "fdui-components/recycler.json",
+    "fdui-components/text.json",
+    "fdui-components/row.json",
+    "fdui-components/container.json",
+    "fdui-components/column.json"
+  ]
+}

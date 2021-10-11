@@ -1,0 +1,40 @@
+{
+  "abstract": true,
+  "name": "FduiCommon",
+  "attrs": {
+    "width": null,
+    "height": null,
+    "flex": null,
+    "alignItems": null,
+    "margin": null,
+    "padding": null,
+    "bgColor": {
+      "support": [
+        "colors"
+      ]
+    },
+    "positionType": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "absolute"
+      ]
+    },
+    "position": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0,0,0,-1"
+      ]
+    },
+    "action": null,
+    "eventLog": null,
+    "aspectRatio": null,
+    "bgImage": null,
+    "bgImageCorners": null,
+    "actionType": null,
+    "actionValue": null
+  }
+}

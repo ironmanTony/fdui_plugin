@@ -1,0 +1,79 @@
+{
+  "parent": "FduiCommon",
+  "name": "text",
+  "attrs": {
+    "size": null,
+    "color": null,
+    "colorRes": null,
+    "verticalGravity": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "top",
+        "center",
+        "bottom"
+      ]
+    },
+    "textStyle": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "strikeThrough": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    "singleLine": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    "maxLine": null,
+    "textAlignment": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1",
+        "2"
+      ]
+    },
+    "string": null,
+    "bgRes": null,
+    "ellipsize": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "start",
+        "middle",
+        "end",
+        "marquee"
+      ]
+    },
+    "fontPadding": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1"
+      ]
+    },
+    "rtlText": null
+  }
+}

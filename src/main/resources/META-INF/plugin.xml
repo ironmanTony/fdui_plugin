@@ -9,6 +9,18 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.ironmantony.fduiplugin.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.ironmantony.fduiplugin.services.MyProjectService"/>
+
+        <completion.contributor
+                language="XML"
+                implementationClass="com.guet.flexbox.intellij.completion.FlexmlCompletionContributor"/>
+        <xml.tagNameProvider
+                implementation="com.guet.flexbox.intellij.completion.FlexmlComponentNameProvider"/>
+        <fileType
+                name="flexml dsl"
+                implementationClass="com.guet.flexbox.intellij.fileType.FlexmlFileType"
+                fieldName="INSTANCE"
+                language="XML"
+                extensions="fdui"/>
     </extensions>
 
     <applicationListeners>

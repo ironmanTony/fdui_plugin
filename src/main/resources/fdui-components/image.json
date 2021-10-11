@@ -1,0 +1,43 @@
+{
+  "parent": "FduiCommon",
+  "name": "image",
+  "attrs": {
+    "src": null,
+    "drawable": null,
+    "scaleType": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "FIT_XY",
+        "fit_start",
+        "fit_center",
+        "fit_end",
+        "center",
+        "center_inside",
+        "center_crop",
+        "focus_crop",
+        "fit_bottom_start"
+      ]
+    },
+    "cornerRadius": null,
+    "holderRes": null,
+    "urlRatio": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    "clipCorners": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "3",
+        "3,3,6,6"
+      ]
+    }
+  }
+}

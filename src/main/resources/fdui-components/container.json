@@ -1,0 +1,11 @@
+{
+  "abstract": true,
+  "parent": "FduiCommon",
+  "name": "container",
+  "attrs": {
+    "flexGrow": null,
+    "flexShrink": null,
+    "alignSelf": null,
+    "justifyContent": null
+  }
+}

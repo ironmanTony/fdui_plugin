@@ -1,0 +1,33 @@
+{
+  "parent": "FduiCommon",
+  "name": "recycler",
+  "attrs": {
+    "orientation": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "H"
+      ]
+    },
+    "sticky": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    "gridColumn": null,
+    "stagger": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "1"
+      ]
+    },
+    "border_trbl": null,
+    "decoration": null
+  }
+}
