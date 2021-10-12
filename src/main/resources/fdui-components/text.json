@@ -24,6 +24,12 @@
         "1",
         "2",
         "3"
+      ],
+      "desc": [
+        "normal",
+        "bold",
+        "italic",
+        "bold and italic"
       ]
     },
     "strikeThrough": {
@@ -50,6 +56,10 @@
       "values": [
         "1",
         "2"
+      ],
+      "desc": [
+        "center",
+        "reverse"
       ]
     },
     "string": null,
@@ -72,6 +82,10 @@
       "values": [
         "0",
         "1"
+      ],
+      "desc": [
+        "no font padding",
+        "have font padding"
       ]
     },
     "rtlText": null

@@ -9,7 +9,7 @@
         "values"
       ],
       "values": [
-        "FIT_XY",
+        "fit_xy",
         "fit_start",
         "fit_center",
         "fit_end",
@@ -28,6 +28,9 @@
       ],
       "values": [
         "1"
+      ],
+      "desc": [
+        "use url ratio"
       ]
     },
     "clipCorners": {

@@ -5,7 +5,91 @@
   "attrs": {
     "flexGrow": null,
     "flexShrink": null,
-    "alignSelf": null,
-    "justifyContent": null
+    "alignSelf": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "desc": [
+        "auto",
+        "flex_start",
+        "center",
+        "flex_end",
+        "stretch",
+        "baseline",
+        "space_between",
+        "space_around"
+      ]
+    },
+    "alignItems": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "desc": [
+        "auto",
+        "flex_start",
+        "center",
+        "flex_end",
+        "stretch",
+        "baseline",
+        "space_between",
+        "space_around"
+      ]
+    },
+    "justifyContent": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "desc": [
+        "flex_start",
+        "center",
+        "flex_end",
+        "space_between",
+        "space_around",
+        "space_evenly"
+      ]
+    },
+    "wrap": {
+      "support": [
+        "values"
+      ],
+      "values": [
+        "0",
+        "1",
+        "2"
+      ],
+      "desc": [
+        "no_wrap",
+        "wrap",
+        "wrap_reverse"
+      ]
+    }
   }
 }

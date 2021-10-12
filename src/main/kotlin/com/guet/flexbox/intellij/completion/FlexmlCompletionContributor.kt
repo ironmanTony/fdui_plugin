@@ -96,9 +96,11 @@ class FlexmlCompletionContributor : CompletionContributor() {
                                 .getAttributeInfoByComponentName(attr.parent.name)[attr.name]
                             val support = attrValues?.support ?: return
                             val values = attrValues.values
+                            val desc = attrValues.desc
                             if (support.contains(SupportType.VALUES) && !values.isNullOrEmpty()) {
-                                result.addAllElements(values.map {
+                                result.addAllElements(values.mapIndexed { index, it ->
                                     LookupElementBuilder.create(it)
+                                        .withTypeText(desc?.getOrNull(index))
                                         .withIcon(AllIcons.FileTypes.Xml)
                                 })
                             }
